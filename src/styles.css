@@ -77,6 +77,7 @@ body{
 }
 .PitchathonIMG{
     height: 250px;
+    width: 444.56px;
 
 }
 @media (max-width: 900px) {
@@ -85,6 +86,7 @@ body{
     }
     .PitchathonIMG{
         height: 200px;
+        width: 355.72px;
     }
 }
 @media (max-width: 400px) {
@@ -96,5 +98,6 @@ body{
     }
     .PitchathonIMG{
         height: 150px;
+        width: 266.78px;
     }
 }
