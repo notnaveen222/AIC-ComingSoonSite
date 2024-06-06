@@ -1,0 +1,100 @@
+body{
+    background-image: url('assets/BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.CS-text{
+    color: white;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.noti-text{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.lowerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-self: flex-end;
+    padding-bottom: 50px;
+
+}
+.subPortion {
+    display: flex;
+    align-items: center;
+}
+.email-bar{
+    font-family: "Poppins", sans-serif;
+    height: 38px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 0px;
+    border-style: none;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    border-right: none;
+    background: none;
+    width: 250px;
+    padding-left: 20px;
+    color: white;
+    outline: none;
+
+}
+.email-bar::placeholder{
+    color: white;
+
+}
+.subButton{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    height: 42px;
+    margin: 0px;
+    width: 100px;
+    background-color: #EB5757;
+    border-style: none;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.PitchathonIMG{
+    height: 250px;
+
+}
+@media (max-width: 900px) {
+    .CS-text{
+        font-size: 70px;
+    }
+    .PitchathonIMG{
+        height: 200px;
+    }
+}
+@media (max-width: 400px) {
+    .CS-text{
+        font-size: 50px;
+    }
+    .email-bar{
+        width: 200px;
+    }
+    .PitchathonIMG{
+        height: 150px;
+    }
+}
